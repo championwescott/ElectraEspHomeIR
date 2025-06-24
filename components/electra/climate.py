@@ -4,7 +4,7 @@ from esphome.components import climate_ir
 from esphome.const import CONF_ID
 
 AUTO_LOAD = ["climate_ir"]
-CODEOWNERS = ["@omersht"]
+CODEOWNERS = ["@championwescott"]
 
 CONF_SUPPORTS_OFF_COMMAND = 'supports_off_command'
 electra_ns = cg.esphome_ns.namespace("electra")
